@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clau",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "install": "^0.12.2",
+    "jquery": "^3.3.1"
+  }
+}

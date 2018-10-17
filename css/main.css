@@ -1,0 +1,11 @@
+.banner {
+  background-image: url(../assets/banner.jpeg);
+  background-size: cover;
+  height: 800px;
+}
+
+.sobre {
+  height: 300px;
+}
+
+/*# sourceMappingURL=main.css.map */
