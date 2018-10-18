@@ -1,16 +1,26 @@
+body {
+ font-family: 'Krub', sans-serif;
+}
+
 .banner {
     background-image: url(../assets/banner.jpeg);
     background-size: cover;
     height: 700px;
+
+    .navbar-light { 
+        background-color:rgba(248, 249, 250, 0.25)!important
+    }
+
+    .navbar-light .navbar-nav .nav-link  {
+        color: #000;
+    }
 }
 
-
-
 .habilidades {
-    padding-top: 30px; 
+    padding-top: 40px; 
     
     .progress {
-        margin-top: 30px;
+        margin-top: 40px;
         height: 25px;
         &-bar {
             text-align: left;
@@ -22,6 +32,22 @@
     }
  }
 
- .img-fluid {
+.img-fluid {
      height: 250px; 
  }
+
+.contato {
+    margin-top: 30px;
+
+    .error {
+        font-size: 14px;
+        font-weight: bold;
+        color: red;
+        letter-spacing: 0.5px;
+    } 
+}
+
+.redes img {
+    padding: 20px;
+}
+ 
