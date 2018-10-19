@@ -7,20 +7,26 @@ body {
   font-family: "Krub", sans-serif;
 }
 
+h2 {
+  margin-bottom: 25px;
+}
+
 .banner {
   background-image: url(../assets/banner.jpeg);
   background-size: cover;
   height: 700px;
 }
 .banner .navbar-light {
-  background-color: rgba(248, 249, 250, 0.25) !important;
+  background-color: rgba(248, 249, 250, 0.1) !important;
 }
-.banner .navbar-branca {
-  background-color: #fff;
-  color: #000;
-  transition: all 0.5s;
+.banner .navbar-preta {
+  background-color: #343a40 !important;
+  transition: all 1s;
 }
-.banner .navbar-branca:hover {
+.banner .navbar-preta .nav-link {
+  color: #fff;
+}
+.banner .navbar-preta .nav-link:hover {
   font-weight: 700;
 }
 .banner .navbar-light .navbar-nav .nav-link {
@@ -31,18 +37,17 @@ body {
 }
 
 .container {
-  width: 60%;
-  height: auto;
+  width: 70%;
 }
-
-.habilidades {
+.container .habilidades {
   padding-top: 40px;
 }
-.habilidades .progress {
+
+.progress {
   margin-top: 40px;
   height: 25px;
 }
-.habilidades .progress-bar {
+.progress-bar {
   text-align: left;
   padding-left: 15px;
   letter-spacing: 1px;

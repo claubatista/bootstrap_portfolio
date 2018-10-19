@@ -7,23 +7,30 @@ body {
  font-family: 'Krub', sans-serif;
 }
 
+h2 {
+    margin-bottom: 25px;
+}
+
 .banner {
     background-image: url(../assets/banner.jpeg);
     background-size: cover;
     height: 700px;
 
     .navbar-light { 
-        background-color:rgba(248, 249, 250, 0.25)!important
+        background-color:rgba(248, 249, 250, 0.10)!important
     }
 
-    .navbar-branca {
-        background-color: #fff;
-        color: #000;
-        transition: all 0.5s;
-    }
+    .navbar-preta {
+        background-color: rgba(52, 58, 64, 1)!important;
+        transition: all 1s;
 
-    .navbar-branca:hover {
-        font-weight: 700;
+        .nav-link {
+            color: #fff;
+
+            &:hover {
+                font-weight: 700;
+            }
+        }
     }
 
     .navbar-light .navbar-nav .nav-link  {
@@ -36,14 +43,14 @@ body {
 }
 
 .container {
-    width: 60%;
-    height: auto;
-}
+    width: 70%;
 
-.habilidades {
+    .habilidades {
     padding-top: 40px; 
-    
-    .progress {
+    }
+}  
+
+ .progress {
         margin-top: 40px;
         height: 25px;
         &-bar {
@@ -53,8 +60,7 @@ body {
             text-transform: uppercase;
             font-size: 14px;
         }
-    }
- }
+  }
 
 .img-fluid {
      height: 250px; 

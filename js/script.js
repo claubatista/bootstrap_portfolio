@@ -21,4 +21,12 @@ let form = $(".form-contact");
         }
     });
 
+    $(window).on("scroll", function(){ 
+        if($(window).scrollTop()>100){
+            $(".navbar").removeClass("navbar-light").addClass("navbar-preta");
+        } else{
+            $(".navbar").removeClass("navbar-preta").addClass("navbar-light"); 
+        }
+    })
+
 
