@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body {
  font-family: 'Krub', sans-serif;
 }
@@ -11,9 +16,28 @@ body {
         background-color:rgba(248, 249, 250, 0.25)!important
     }
 
+    .navbar-branca {
+        background-color: #fff;
+        color: #000;
+        transition: all 0.5s;
+    }
+
+    .navbar-branca:hover {
+        font-weight: 700;
+    }
+
     .navbar-light .navbar-nav .nav-link  {
         color: #000;
     }
+    
+    .navbar-light .navbar-nav .nav-link:hover{
+        font-weight: 700;
+    }
+}
+
+.container {
+    width: 60%;
+    height: auto;
 }
 
 .habilidades {
@@ -47,7 +71,12 @@ body {
     } 
 }
 
-.redes img {
-    padding: 20px;
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+
+    img {
+        padding: 20px;
+    }
 }
  
